@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="당첨 번호" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lottoTxtNum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lottoTxtNum2"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lottoTxtNum3"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lottoTxtNum4"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lottoTxtNum5"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lottoTxtNum6"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lottoTxtBonusNum"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="내가 구매한 번호"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/lottoEdtMyNum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/lottoEdtMyNum2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/lottoEdtMyNum3"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/lottoEdtMyNum4"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/lottoEdtMyNum5"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/lottoEdtMyNum6"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/lottoBtnMyNumBuyAuto"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="내 번호 자동 구매하기"/>
+
+    <Button
+        android:id="@+id/lottoBtnBuy"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="로또 구매하기"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자동 구매 금액"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/lottoEdtAutoPrice"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/lottoBtnBuyAuto"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="로또 자동 구매하기"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/lottoTxtUsedMoney"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사용 금액 :"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/lottoTxtWinMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="당첨 금액 :"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/lottoTxtWinFirstCnt"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1등 ?"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/lottoTxtWinSecondCnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2등 ?"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/lottoTxtWinThirdCnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3등 ?"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/lottoTxtWinFourthCnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4등 ?"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/lottoTxtWinFifthCnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5등 ?"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/lottoTxtWinFailCnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="꽝 ?"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/lottoBtnReset"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="구매 기록 초기화"/>
+
+</LinearLayout>
